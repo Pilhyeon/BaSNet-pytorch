@@ -59,7 +59,7 @@ $ bash run.sh
 ~~~~
 
 ### Evaulation
-The pre-trained model can be found [here](https://drive.google.com/open?id=12bkS4m_T9vgG-GAvjrjpAivzXpx_faAP).
+The pre-trained model can be found [here](https://drive.google.com/open?id=1W7HEOM5Mm8uUPxUxgsi2u62SPUftndiZ).
 You can evaluate the model by running the command below.
 
 ~~~~
