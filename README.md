@@ -85,4 +85,4 @@ If you find this code useful, please cite our paper.
 ~~~~
 
 ## Contact
-If you have any further questions or comments, please contact the first author of the paper - Pilhyeon Lee (lph1114@yonsei.ac.kr).
+If you have any question or comment, please contact the first author of the paper - Pilhyeon Lee (lph1114@yonsei.ac.kr).
