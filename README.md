@@ -76,11 +76,11 @@ We referenced the repos below for the code.
 If you find this code useful, please cite our paper.
 
 ~~~~
-@article{lee2019background,
+@inproceedings{lee2020background,
   title={Background Suppression Network for Weakly-supervised Temporal Action Localization},
   author={Lee, Pilhyeon and Uh, Youngjung and Byun, Hyeran},
-  journal={arXiv preprint arXiv:1911.09963},
-  year={2019}
+  booktitle={AAAI},
+  year={2020}
 }
 ~~~~
 
