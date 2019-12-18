@@ -5,6 +5,7 @@ Pytorch Implementation of '[Background Suppression Network for Weakly-supervised
 ### Recommended Environment
 * Python 3.5
 * Pytorch 1.0
+* Tensorflow 1.15 (for Tensorboard)
 
 ### Depencencies
 You can set up the environments by using `$ pip3 install -r requirements.txt`.
