@@ -44,4 +44,4 @@ if __name__ == "__main__":
     test(net, config, logger, test_loader, test_info, 0, model_file=config.model_file)
 
     utils.save_best_record_thumos(test_info, 
-        os.path.join(config.output_path, "best_record.txt".format(config.seed)))
+        os.path.join(config.output_path, "best_record.txt"))
