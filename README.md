@@ -3,6 +3,10 @@ Pytorch Implementation of '[Background Suppression Network for Weakly-supervised
 
 ![BaS-Net architecture](https://user-images.githubusercontent.com/16102333/78222568-69945500-7500-11ea-9468-22b1da6d1d77.png)
 
+## (2020/06/16) The code for our new model is available now!
+[Background Modeling via Uncertainty Estimation for Weakly-supervised Action Localization](https://github.com/Pilhyeon/Background-Modeling-via-Uncertainty-Estimation)
+
+
 ## Prerequisites
 ### Recommended Environment
 * Python 3.5
