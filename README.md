@@ -11,8 +11,7 @@
 > **Abstract:** *Weakly-supervised temporal action localization is a very challenging problem because frame-wise labels are not given in the training stage while the only hint is video-level labels: whether each video contains action frames of interest. Previous methods aggregate frame-level class scores to produce video-level prediction and learn from video-level action labels. This formulation does not fully model the problem in that background frames are forced to be misclassified as action classes to predict video-level labels accurately. In this paper, we design Background Suppression Network (BaS-Net) which introduces an auxiliary class for background and has a two-branch weight-sharing architecture with an asymmetrical training strategy. This enables BaS-Net to suppress activations from background frames to improve localization performance. Extensive experiments demonstrate the effectiveness of BaS-Net and its superiority over the state-of-the-art methods on the most popular benchmarks - THUMOS'14 and ActivityNet.*
 
 ## (2020/06/16) The code for our new model is available now!
-### Background Modeling via Uncertainty Estimation for Weakly-supervised Action Localization
-### [Paper](https://arxiv.org/abs/2006.07006) | [Code](https://github.com/Pilhyeon/Background-Modeling-via-Uncertainty-Estimation)
+**Background Modeling via Uncertainty Estimation for Weakly-supervised Action Localization [[Paper](https://arxiv.org/abs/2006.07006)] [[Code](https://github.com/Pilhyeon/Background-Modeling-via-Uncertainty-Estimation)]**
 
 ## Prerequisites
 ### Recommended Environment
