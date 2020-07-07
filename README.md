@@ -89,7 +89,7 @@ We referenced the repos below for the code.
 If you find this code useful, please cite our paper.
 
 ~~~~
-@inproceedings{lee2020background,
+@inproceedings{lee2020BaS-Net,
   title={Background Suppression Network for Weakly-supervised Temporal Action Localization},
   author={Lee, Pilhyeon and Uh, Youngjung and Byun, Hyeran},
   booktitle={AAAI},
