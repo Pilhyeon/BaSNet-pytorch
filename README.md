@@ -93,6 +93,7 @@ If you find this code useful, please cite our paper.
   title={Background Suppression Network for Weakly-supervised Temporal Action Localization},
   author={Lee, Pilhyeon and Uh, Youngjung and Byun, Hyeran},
   booktitle={AAAI},
+  pages={11320--11327},
   year={2020}
 }
 ~~~~
