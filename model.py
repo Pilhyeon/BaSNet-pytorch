@@ -84,8 +84,16 @@ class BaS_Net(nn.Module):
         cas_base = self.cas_module(x)
         cas_supp = self.cas_module(x_supp)
 
-        score_base = torch.mean(torch.topk(cas_base, self.k, dim=1)[0], dim=1)
-        score_supp = torch.mean(torch.topk(cas_supp, self.k, dim=1)[0], dim=1)
+        # slicing after sorting is much faster than torch.topk (https://github.com/pytorch/pytorch/issues/22812)
+        # score_base = torch.mean(torch.topk(cas_base, self.k, dim=1)[0], dim=1)
+        sorted_scores_base, _= cas_base.sort(descending=True, dim=1)
+        topk_scores_base = sorted_scores_base[:, :self.k, :]
+        score_base = torch.mean(topk_scores_base, dim=1)
+
+        # score_supp = torch.mean(torch.topk(cas_supp, self.k, dim=1)[0], dim=1)
+        sorted_scores_supp, _= cas_supp.sort(descending=True, dim=1)
+        topk_scores_supp = sorted_scores_supp[:, :self.k, :]
+        score_supp = torch.mean(topk_scores_supp, dim=1)
 
         score_base = self.softmax(score_base)
         score_supp = self.softmax(score_supp)
