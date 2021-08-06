@@ -1,5 +1,5 @@
 # BaSNet-pytorch
-### Official Pytorch Implementation of '[Background Suppression Network for Weakly-supervised Temporal Action Localization](https://arxiv.org/abs/1911.09963)' (AAAI 2020)
+### Official Pytorch Implementation of '[Background Suppression Network for Weakly-supervised Temporal Action Localization](https://arxiv.org/abs/1911.09963)' (AAAI 2020 Spotlight)
 
 ![BaS-Net architecture](https://user-images.githubusercontent.com/16102333/78222568-69945500-7500-11ea-9468-22b1da6d1d77.png)
 
